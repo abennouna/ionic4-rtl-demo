@@ -19,6 +19,33 @@
     <b>{{ currentDirection }}</b>
   </p>
 
+  <div margin-vertical padding-vertical>
+    <h1>slot issues</h1>
+
+    <ion-button>
+      <ion-icon slot="start" name="star"></ion-icon>
+      Button w/Start Slot Icon
+    </ion-button>
+
+    <ion-button>
+      Button w/End Slot Icon
+      <ion-icon slot="end" name="star"></ion-icon>
+    </ion-button>
+
+    <ion-button>
+      Forward Arrow Icon (End Slot)
+      <ion-icon slot="end" name="arrow-forward"></ion-icon>
+    </ion-button>
+
+    <ion-button>
+      <ion-icon slot="start" name="arrow-back"></ion-icon>
+      Back Arrow Icon (Start Slot)
+    </ion-button>
+
+    <ion-button>
+      <ion-icon slot="icon-only" name="star"></ion-icon>
+    </ion-button>
+  </div>
 
   <div margin-vertical padding-vertical>
     <h1>margin-*, padding-* issues</h1>
